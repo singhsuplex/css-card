@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Flex</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main-items{
+            display: flex;
+            gap: 20px;
+            /* flex-direction: column; */
+            /* flex-direction: row-reverse; */
+                /* flex-direction: column-reverse; */
+        }
+        .items {
+            width: 300px;
+            border: 5px solid gold;
+            border-radius: 10px 20px;
+            overflow: hidden;
+        }
+
+        .items:hover{
+            border-radius: 20px 10px;
+        }
+        .items img{
+            width: 100%;
+            height: 300px;
+            padding: 10px;
+        }
+        .name-items{
+            background-color: gold;
+            padding: 20px 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .name-items a{
+            background-color: #000;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 30px;
+            text-decoration: none;
+        }
+
+        .name-items a:hover{
+            background-color: #fe0033;
+        }
+
+        .name-items p{
+            font-size: 20px;
+            font-weight: 600;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="main-items">
+        <div class="items">
+            <img src="https://media.istockphoto.com/id/995518546/photo/assortment-of-colorful-ripe-tropical-fruits-top-view.jpg?s=612x612&w=0&k=20&c=bz2zksjSPikOYm9I-mG-f8SAQWVpFsR4M_u4K9soLQ0=" alt="fruits">
+            <div class="name-items">
+                <p class="fruit-name">All Fruits</p>
+                <a href="#"> About Fruits </a>
+            </div>
+        </div>
+
+        
+    </div>
+
+</body>
+
+</html>
