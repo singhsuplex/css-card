@@ -1,0 +1,17 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 666 643" width="666" height="643">
+	<defs>
+		<image width="160" height="411" id="img1" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwIiBoZWlnaHQ9IjQxMSIgdmlld0JveD0iMCAwIDE2MCA0MTEiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxNjAiIGhlaWdodD0iNDExIiByeD0iODAiIGZpbGw9IiNEOUQ5RDkiLz4KPC9zdmc+Cg=="/>
+		<image width="1" height="580" id="img2" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSI1ODAiIHZpZXdCb3g9IjAgMCAxIDU4MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGxpbmUgeDE9IjAuNSIgeTE9IjEuOTI1MjVlLTA4IiB4Mj0iMC40OTk5NzEiIHkyPSI1NzkuNSIgc3Ryb2tlPSIjRTZFNkU2Ii8+Cjwvc3ZnPgo="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Band 1=End" href="#img1" transform="matrix(1,0,0,1,8,106)"/>
+	<use id="Band 1=End copy" href="#img1" transform="matrix(1,0,0,1,172,61)"/>
+	<use id="Band 1=End copy 2" href="#img1" transform="matrix(1,0,0,1,336,166)"/>
+	<use id="Band 1=End copy 3" href="#img1" transform="matrix(1,0,0,1,500,119)"/>
+	<use id="Line" href="#img2" transform="matrix(1,0,0,1.097,7,6)"/>
+	<use id="Line copy" href="#img2" transform="matrix(1,0,0,1.097,171,6)"/>
+	<use id="Line copy 2" href="#img2" transform="matrix(1,0,0,1.097,336,6)"/>
+	<use id="Line copy 3" href="#img2" transform="matrix(1,0,0,1.097,499,6)"/>
+	<use id="Line copy 4" href="#img2" transform="matrix(1,0,0,1.097,659,6)"/>
+</svg>

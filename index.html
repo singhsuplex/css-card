@@ -1,0 +1,1135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Habasit New Design</title>
+
+    <!-- Bootstrap Latest Version -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Swiper Slider -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/custom-animation.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+  </head>
+
+  <body>
+    <!-- Top small links row - Hidden on mobile -->
+    <div class="top-links">
+      <div class="container py-2 d-flex justify-content-end gap-4">
+        <div class="top-items">
+          <a href="#" class="text-decoration-none">Downloads</a>
+          <a href="#" class="text-decoration-none">Contact</a>
+          <a href="#" class="text-decoration-none">Customer Portal</a>
+        </div>
+      </div>
+    </div>
+    <header class="header-section">
+      <!-- Main Navbar -->
+      <nav class="navbar navbar-expand-lg py-2">
+        <div class="container">
+          <!-- Mobile Header Row - Only visible on mobile -->
+          <div class="mobile-header-row">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+              <img
+                src="images/habasit_logo.png"
+                class="logo-img"
+                alt="Habasit Logo"
+              />
+            </a>
+
+            <!-- Mobile Right Icons -->
+            <div class="mobile-right-icons">
+              <i class="fa-solid fa-magnifying-glass mobile-search-icon"></i>
+              <button
+                class="navbar-toggler border-0"
+                type="button"
+                id="mobileMenuToggle"
+              >
+                <span class="bi bi-list fs-1"></span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Desktop Layout - Logo + Menu Left, Icons Right -->
+          <div class="d-none d-lg-flex w-100 align-items-center">
+            <!-- Left Side: Logo + Menu -->
+            <div class="logo-menu-container">
+              <!-- Logo -->
+              <a class="navbar-brand" href="#">
+                <img
+                  src="images/habasit_logo.png"
+                  class="logo-img"
+                  alt="Habasit Logo"
+                />
+              </a>
+
+              <!-- Menu -->
+              <ul class="navbar-nav mb-0">
+                <!-- Products Mega Menu -->
+                <li class="nav-item dropdown mega-dropdown">
+                  <a class="nav-link" href="#">Products</a>
+
+                  <div class="dropdown-menu mega-menu">
+                    <button class="close-mega-menu" aria-label="Close">
+                      ×
+                    </button>
+                    <div class="container">
+                      <div class="row g-5">
+                        <div class="col-12 col-lg-3 mega-col">
+                          <div class="mega-title">Belts</div>
+                          <a href="#">Conveyor belts</a>
+                          <a href="#">Processing belts</a>
+                          <a href="#">Timing belts</a>
+                          <a href="#">Round and V belts</a>
+                          <a href="#">Seamless belts</a>
+                        </div>
+
+                        <div class="col-12 col-lg-3 mega-col">
+                          <div class="mega-title">Components</div>
+                          <a href="#">Plastic modular belts</a>
+                          <a href="#">Monolithic belts</a>
+                          <a href="#">Machine belts</a>
+                          <a href="#">Fabric belts</a>
+                          <a href="#">Cleaning components</a>
+                        </div>
+
+                        <div class="col-12 col-lg-3 mega-col">
+                          <div class="mega-title">Systems and tools</div>
+                          <a href="#">Smart System</a>
+                          <a href="#">Fabrication tools and equipments</a>
+                          <a href="#">Folder Gluer</a>
+                        </div>
+
+                        <div class="col-12 col-lg-3 quick-links-section">
+                          <div class="mega-title">Quick links</div>
+                          <a href="#" class="quick-link-item">
+                            Talk to an expert
+                            <i class="bi bi-arrow-right"></i>
+                          </a>
+                          <a href="#" class="quick-link-item">
+                            Technical downloads
+                            <i class="bi bi-arrow-right"></i>
+                          </a>
+
+                          <img
+                            src="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=300&h=200&fit=crop"
+                            alt="Products"
+                            class="mega-image"
+                          />
+                        </div>
+                      </div>
+
+                      <!-- LinkedIn Icon Bottom Right -->
+                      <div class="social-icons-container">
+                        <a href="#" class="social-icon">
+                          <i class="fab fa-linkedin-in"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <!-- Industries Mega Menu -->
+                <li class="nav-item dropdown mega-dropdown">
+                  <a class="nav-link" href="#">Industries</a>
+
+                  <div class="dropdown-menu mega-menu">
+                    <button class="close-mega-menu" aria-label="Close">
+                      ×
+                    </button>
+                    <div class="container">
+                      <div class="mega-title mb-4">Industries →</div>
+
+                      <div class="industries-grid">
+                        <div class="mega-col">
+                          <div class="mega-title">Food & Beverage</div>
+                          <a href="#">Bakery & Confectionary</a>
+                          <a href="#">Meat & poultry</a>
+                          <a href="#">Fruit & Vegetables</a>
+                          <a href="#">Fish & Seafood</a>
+                          <a href="#">Beverage</a>
+                        </div>
+
+                        <div class="mega-col">
+                          <div class="mega-title">Construction</div>
+                          <a href="#">Wood</a>
+                          <a href="#">Insulation</a>
+                          <a href="#">Marble & Stone</a>
+                          <a href="#">Metal processing</a>
+                        </div>
+
+                        <div class="mega-col">
+                          <div class="mega-title">Material handling</div>
+                          <a href="#">Airports</a>
+                          <a href="#">Distribution centers</a>
+                          <a href="#">Postal</a>
+                        </div>
+
+                        <div class="mega-col">
+                          <div class="mega-title">Packaging</div>
+                          <a href="#">Primary packaging</a>
+                          <a href="#">Secondary packaging</a>
+                        </div>
+
+                        <div class="mega-col">
+                          <div class="mega-title">Paper</div>
+                          <a href="#">Paper printing & Finishing</a>
+                          <a href="#">Board corrugation & box making</a>
+                          <a href="#">Hygienic paper products</a>
+                        </div>
+
+                        <div class="mega-col">
+                          <div class="mega-title">Textile</div>
+                          <a href="#">Textile printing</a>
+                          <a href="#">Yarn processing</a>
+                          <a href="#">Nonwovens</a>
+                        </div>
+
+                        <div class="mega-col">
+                          <div class="mega-title">Automotive</div>
+                          <a href="#">Tire</a>
+                          <a href="#">Car assembly</a>
+                          <a href="#">Vehicle battery</a>
+                        </div>
+
+                        <div class="mega-col">
+                          <div class="mega-title">More industries</div>
+                          <a href="#">Tobacco</a>
+                          <a href="#">Tannery</a>
+                          <a href="#">Sport & leisure</a>
+                          <a href="#">Industrial automation</a>
+                          <a href="#">Waste and recycling</a>
+                        </div>
+                      </div>
+
+                      <!-- LinkedIn Icon Bottom Right -->
+                      <div class="social-icons-container">
+                        <a href="#" class="social-icon">
+                          <i class="fab fa-linkedin-in"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Innovations</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Insights & Knowledge</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Career</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Right Side: Icons -->
+            <div class="header-icons">
+              <div class="dropdown">
+                <i
+                  class="fa-solid fa-globe fa-lg"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  style="cursor: pointer"
+                ></i>
+                <ul
+                  class="dropdown-menu dropdown-menu-end"
+                  style="min-width: auto"
+                >
+                  <li><a class="dropdown-item" href="#">EN</a></li>
+                  <li><a class="dropdown-item" href="#">ES</a></li>
+                  <li><a class="dropdown-item" href="#">FR</a></li>
+                  <li><a class="dropdown-item" href="#">DE</a></li>
+                  <li><a class="dropdown-item" href="#">ZH</a></li>
+                  <li><a class="dropdown-item" href="#">JA</a></li>
+                </ul>
+              </div>
+              <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Mobile Fullscreen Menu -->
+    <div class="mobile-fullscreen-menu" id="mobileFullscreenMenu">
+      <!-- Mobile Menu Header -->
+      <div class="mobile-menu-header">
+        <img
+          src="images/habasit_logo.png"
+          class="mobile-menu-logo"
+          alt="Habasit Logo"
+        />
+        <div class="mobile-menu-icons">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="bi bi-x" id="closeMobileMenu"></i>
+        </div>
+      </div>
+
+      <!-- Mobile Menu Content -->
+      <div class="mobile-menu-content">
+        <!-- Products -->
+        <div class="mobile-menu-item">
+          <div class="mobile-menu-link" data-submenu="products">
+            <span>Products</span>
+          </div>
+        </div>
+
+        <!-- Industries -->
+        <div class="mobile-menu-item">
+          <div class="mobile-menu-link" data-submenu="industries">
+            <span>Industries</span>
+          </div>
+        </div>
+
+        <!-- Solutions -->
+        <div class="mobile-menu-item">
+          <div class="mobile-menu-link" data-submenu="solutions">
+            <span>Solutions</span>
+            <i class="bi bi-arrow-right"></i>
+          </div>
+        </div>
+
+        <!-- News -->
+        <div class="mobile-menu-item">
+          <div class="mobile-menu-link" data-submenu="news">
+            <span>News</span>
+            <i class="bi bi-arrow-right"></i>
+          </div>
+        </div>
+
+        <!-- About us -->
+        <div class="mobile-menu-item">
+          <div class="mobile-menu-link" data-submenu="about">
+            <span>About us</span>
+            <i class="bi bi-arrow-right"></i>
+          </div>
+        </div>
+
+        <!-- Career -->
+        <div class="mobile-menu-item">
+          <div class="mobile-menu-link">
+            <span>Career</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Menu Bottom -->
+      <div class="mobile-menu-bottom">
+        <div class="mobile-bottom-links">
+          <a href="#" class="fw-bold">Customer Portal</a>
+          <a href="#">Downloads</a>
+          <a href="#">Contact</a>
+        </div>
+
+        <div class="mobile-social-icons">
+          <div class="mobile-social-icon">
+            <i class="fa-solid fa-globe"></i>
+          </div>
+          <div class="mobile-social-icon">
+            <i class="fab fa-youtube"></i>
+          </div>
+          <div class="mobile-social-icon">
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Submenu Modal for Products -->
+    <div class="mobile-submenu-modal" id="submenu-products">
+      <div class="mobile-submenu-header">
+        <a href="#" class="mobile-submenu-back">
+          <i class="bi bi-chevron-left"></i> Back
+        </a>
+        <i class="bi bi-x mobile-submenu-close"></i>
+      </div>
+
+      <div class="mobile-submenu-content">
+        <div class="mobile-submenu-title">Products</div>
+
+        <div class="mobile-submenu-section">
+          <div class="mobile-section-title" data-section="belts">
+            <span>Belts</span>
+            <i class="bi bi-chevron-down"></i>
+          </div>
+          <div class="mobile-section-content" id="section-belts">
+            <a href="#">Conveyor belts</a>
+            <a href="#">Processing belts</a>
+            <a href="#">Timing belts</a>
+            <a href="#">Round and V belts</a>
+            <a href="#">Seamless belts</a>
+          </div>
+        </div>
+
+        <div class="mobile-submenu-section">
+          <div class="mobile-section-title" data-section="components">
+            <span>Components</span>
+            <i class="bi bi-chevron-down"></i>
+          </div>
+          <div class="mobile-section-content" id="section-components">
+            <a href="#">Plastic modular belts</a>
+            <a href="#">Monolithic belts</a>
+            <a href="#">Machine belts</a>
+            <a href="#">Fabric belts</a>
+            <a href="#">Cleaning components</a>
+          </div>
+        </div>
+
+        <div class="mobile-submenu-section">
+          <div class="mobile-section-title" data-section="systems">
+            <span>Systems and tools</span>
+            <i class="bi bi-chevron-down"></i>
+          </div>
+          <div class="mobile-section-content" id="section-systems">
+            <a href="#">Smart System</a>
+            <a href="#">Fabrication tools and equipments</a>
+            <a href="#">Folder Gluer</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Submenu Modal for Industries -->
+    <div class="mobile-submenu-modal" id="submenu-industries">
+      <div class="mobile-submenu-header">
+        <a href="#" class="mobile-submenu-back">
+          <i class="bi bi-chevron-left"></i> Back
+        </a>
+        <i class="bi bi-x mobile-submenu-close"></i>
+      </div>
+
+      <div class="mobile-submenu-content">
+        <div class="mobile-submenu-title">Industries</div>
+
+        <div class="mobile-submenu-section">
+          <div class="mobile-section-title" data-section="food-beverage">
+            <span>Food & Beverage</span>
+            <i class="bi bi-chevron-down"></i>
+          </div>
+          <div class="mobile-section-content" id="section-food-beverage">
+            <a href="#">Bakery & Confectionary</a>
+            <a href="#">Meat & poultry</a>
+            <a href="#">Fruit & Vegetables</a>
+            <a href="#">Fish & Seafood</a>
+            <a href="#">Beverage</a>
+          </div>
+        </div>
+
+        <div class="mobile-submenu-section">
+          <div class="mobile-section-title" data-section="construction">
+            <span>Construction</span>
+            <i class="bi bi-chevron-down"></i>
+          </div>
+          <div class="mobile-section-content" id="section-construction">
+            <a href="#">Wood</a>
+            <a href="#">Insulation</a>
+            <a href="#">Marble & Stone</a>
+            <a href="#">Metal processing</a>
+          </div>
+        </div>
+
+        <div class="mobile-submenu-section">
+          <div class="mobile-section-title" data-section="packaging">
+            <span>Packaging</span>
+            <i class="bi bi-chevron-down"></i>
+          </div>
+          <div class="mobile-section-content" id="section-packaging">
+            <a href="#">Primary packaging</a>
+            <a href="#">Secondary packaging</a>
+          </div>
+        </div>
+
+        <div class="mobile-submenu-section">
+          <div class="mobile-section-title" data-section="automotive">
+            <span>Automotive</span>
+            <i class="bi bi-chevron-down"></i>
+          </div>
+          <div class="mobile-section-content" id="section-automotive">
+            <a href="#">Tire</a>
+            <a href="#">Car assembly</a>
+            <a href="#">Vehicle battery</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   <!-- banner section  -->
+
+  <section class="banner-section">
+  <div class="container-fluid py-5">
+    <div class="swiper bannerSwiper">
+      <div class="swiper-wrapper">
+        <!-- Slide 1 -->
+        <div class="swiper-slide">
+          <div class="container d-flex align-items-center justify-content-between video-main">
+            <div class="mask-video-wrap">
+              <div class="mask">
+                <video class="masked-video" autoplay muted loop playsinline preload="auto" src="video/banner-video.mp4"></video>
+              </div>
+            </div>
+
+            <div class="banner-content">
+              <h1 class="banner-title">Habasit</h1>
+              <p class="banner-small">Keeping your industry in motion</p>
+              <p class="banner-desc">
+                As a global leader in conveyor and power transmission
+                systems, we support industries with innovative products and
+                services.
+              </p>
+              <a href="#" class="banner-btn animate-btn">About Us</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="swiper-slide">
+          <div class="container d-flex align-items-center justify-content-between video-main">
+            <div class="mask-video-wrap">
+              <div class="mask">
+                <img class="masked-video" src="images/banner-slider/banner-img1.jpg" alt="">
+              </div>
+            </div>
+
+            <div class="banner-content">
+              <h1 class="banner-title">Jubilee</h1>
+              <p class="banner-small">80 Years of Excellence</p>
+              <p class="banner-desc">
+                At Habasit, 2026 marks a milestone of innovation, quality,
+                and trust. Discover how our legacy continues to shape the
+                future
+              </p>
+              <a href="#" class="banner-btn animate-btn">Read the News</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+       <div class="swiper-slide">
+          <div class="container d-flex align-items-center justify-content-between video-main">
+            <div class="mask-video-wrap">
+              <div class="mask">
+                <img class="masked-video" src="images/banner-slider/banner-img1.jpg" alt="">
+              </div>
+            </div>
+
+            <div class="banner-content">
+              <h1 class="banner-title">Jubilee</h1>
+              <p class="banner-small">80 Years of Excellence</p>
+              <p class="banner-desc">
+                At Habasit, 2026 marks a milestone of innovation, quality,
+                and trust. Discover how our legacy continues to shape the
+                future
+              </p>
+              <a href="#" class="banner-btn animate-btn">Read the News</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 4 -->
+       <div class="swiper-slide">
+          <div class="container d-flex align-items-center justify-content-between video-main">
+            <div class="mask-video-wrap">
+              <div class="mask">
+                <img class="masked-video" src="images/banner-slider/banner-img1.jpg" alt="">
+              </div>
+            </div>
+
+            <div class="banner-content">
+              <h1 class="banner-title">Jubilee</h1>
+              <p class="banner-small">80 Years of Excellence</p>
+              <p class="banner-desc">
+                At Habasit, 2026 marks a milestone of innovation, quality,
+                and trust. Discover how our legacy continues to shape the
+                future
+              </p>
+              <a href="#" class="banner-btn animate-btn">Read the News</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Arrows -->
+      <div class="banner-arrow">
+        <div class="arrow-btn prev-arrow">
+          <i class="fa-solid fa-chevron-left"></i>
+        </div>
+        <div class="arrow-btn next-arrow">
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+      </div>
+
+      <!-- Mobile Tab Numbers with Progress Bars -->
+      <div class="mobile-tab-numbers">
+        <div class="mobile-tab-item" data-index="0">
+          <div class="mobile-progress-bar">
+            <div class="mobile-progress-bar-fill"></div>
+          </div>
+          <span class="tab-number active">01</span>
+        </div>
+        <div class="mobile-tab-item" data-index="1">
+          <div class="mobile-progress-bar">
+            <div class="mobile-progress-bar-fill"></div>
+          </div>
+          <span class="tab-number">02</span>
+        </div>
+        <div class="mobile-tab-item" data-index="2">
+          <div class="mobile-progress-bar">
+            <div class="mobile-progress-bar-fill"></div>
+          </div>
+          <span class="tab-number">03</span>
+        </div>
+        <div class="mobile-tab-item" data-index="3">
+          <div class="mobile-progress-bar">
+            <div class="mobile-progress-bar-fill"></div>
+          </div>
+          <span class="tab-number">04</span>
+        </div>
+      </div>
+
+      <!-- Bottom Tabs -->
+      <div class="container bottom-tabs">
+        <div class="tab-item" data-index="0">
+          <div class="tab-progress">
+            <div class="tab-progress-fill"></div>
+          </div>
+          This is Habasit
+        </div>
+        <div class="tab-item" data-index="1">
+          <div class="tab-progress">
+            <div class="tab-progress-fill"></div>
+          </div>
+          Habasit Environmental Report 2024 →
+        </div>
+        <div class="tab-item" data-index="2">
+          <div class="tab-progress">
+            <div class="tab-progress-fill"></div>
+          </div>
+          Introducing the Low Back Pressure Belt →
+        </div>
+        <div class="tab-item" data-index="3">
+          <div class="tab-progress">
+            <div class="tab-progress-fill"></div>
+          </div>
+          Global Service Network →
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- ========= Industry Section =============== -->
+    <section class="industries-section py-5">
+      <div class="container">
+        <h2 class="section-title text-center mb-5">Industries</h2>
+
+        <div class="row gy-4">
+          <!-- Item 1 -->
+          <div class="col-md-3 col-sm-6">
+            <div class="industry-card">
+              <div class="icon">
+                <!-- <i class="fa-solid fa-wine-bottle"></i> -->
+                <img src="images/industry/Airport.svg" alt="" />
+              </div>
+              <h5>Airports</h5>
+              <!-- <p class="card-desc">Ensuring food safety in your processes.</p> -->
+              <a href="#" class="arrow-link"
+                ><i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="col-md-3 col-sm-6">
+            <div class="industry-card">
+              <div class="icon">
+                <img src="images/industry/Automotive.svg" alt="" />
+              </div>
+              <h5>Automotive</h5>
+              <a href="#" class="arrow-link"
+                ><i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="col-md-3 col-sm-6">
+            <div class="industry-card">
+              <div class="icon">
+                <img src="images/industry/Bakery.svg" alt="" />
+              </div>
+              <h5>Bakery</h5>
+              <a href="#" class="arrow-link"
+                ><i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="col-md-3 col-sm-6">
+            <div class="industry-card">
+              <div class="icon">
+                <img src="images/industry/Confectionary.svg" alt="" />
+              </div>
+              <h5>Confectionary</h5>
+              <a href="#" class="arrow-link"
+                ><i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="col-md-3 col-sm-6">
+            <div class="industry-card">
+              <div class="icon">
+                <img src="images/industry/Intralogistics.svg" alt="" />
+              </div>
+              <h5>Intralogistics</h5>
+              <a href="#" class="arrow-link"
+                ><i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Item 6 -->
+          <div class="col-md-3 col-sm-6">
+            <div class="industry-card">
+              <div class="icon">
+                <img src="images/industry/Meat and Fish.svg" alt="" />
+              </div>
+              <h5>Meat & Fish</h5>
+              <a href="#" class="arrow-link"
+                ><i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Item 7 -->
+          <div class="col-md-3 col-sm-6">
+            <div class="industry-card">
+              <div class="icon">
+                <img src="images/industry/Nonwovens.svg" alt="" />
+              </div>
+              <h5>Nonwovens</h5>
+              <a href="#" class="arrow-link"
+                ><i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Item 8 -->
+          <div class="col-md-3 col-sm-6">
+            <div class="industry-card">
+              <div class="icon">
+                <img src="images/industry/Packaging.svg" alt="" />
+              </div>
+              <h5>Packaging</h5>
+              <a href="#" class="arrow-link"
+                ><i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="industry-card">
+              <div class="icon">
+                <img src="images/industry/Paper.svg" alt="" />
+              </div>
+              <h5>Paper & Board</h5>
+              <a href="#" class="arrow-link"
+                ><i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="industry-card">
+              <div class="icon">
+                <img src="images/industry/Printing.svg" alt="" />
+              </div>
+              <h5>Printing</h5>
+              <a href="#" class="arrow-link"
+                ><i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="industry-card">
+              <div class="icon">
+                <img src="images/industry/Recycling.svg" alt="" />
+              </div>
+              <h5>Recycling</h5>
+              <a href="#" class="arrow-link"
+                ><i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="industry-card">
+              <div class="icon">
+                <img src="images/industry/Sport and Leasure.svg" alt="" />
+              </div>
+              <h5>Sport & Leisure</h5>
+              <a href="#" class="arrow-link"
+                ><i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="industry-card">
+              <div class="icon">
+                <img src="images/industry/Tire.svg" alt="" />
+              </div>
+              <h5>Tire</h5>
+              <a href="#" class="arrow-link"
+                ><i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="industry-card">
+              <div class="icon">
+                <img src="images/industry/Wood.svg" alt="" />
+              </div>
+              <h5>Wood</h5>
+              <a href="#" class="arrow-link"
+                ><i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="industry-card">
+              <div class="icon">
+                <img src="images/industry/Yarn Processing.svg" alt="" />
+              </div>
+              <h5>Yarn Processing</h5>
+              <p class="card-desc">
+                First-class quality, performance, and reliability.
+              </p>
+              <a href="#" class="arrow-link"
+                ><i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========== presence-section ==================== -->
+    <section class="presence-section py-5 pb-0">
+      <div class="container-fluid px-0">
+        <div class="row g-0 align-items-center">
+          <!-- Image Section - Order changed for mobile -->
+          <div class="col-lg-6 position-relative order-1 order-lg-2">
+            <div class="half-circle-img">
+              <img src="images/presence-img.jpg" alt="Presence Image" />
+            </div>
+          </div>
+
+          <!-- Content Section -->
+          <div class="col-lg-6 p-5 text-white presence-left order-2 order-lg-1">
+            <p class="small-title">OUR LOCATIONS</p>
+            <h3 class="presence-title">Presence worldwide</h3>
+            <p class="presence-text">
+              Our network of Distribution Partners and Service Centers means we
+              can support businesses in more than 70 countries around the world.
+              We are serving customers from a wide range.
+            </p>
+
+            <a href="#" class="presence-btn white-animate-btn">Our locations</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========== fOCUS-section ==================== -->
+    <section class="focus-section py-5">
+      <div class="container">
+        <h2 class="text-center mb-5 focus-title">In focus</h2>
+
+        <!-- Desktop Grid -->
+        <div class="row g-4 focus-grid">
+          <div class="col-lg-4 col-md-6">
+            <div class="focus-card">
+              <div class="focus-media">
+                <img src="images/focus/News_Bakery_plant_in_Italy.jpg" alt="" />
+                <div class="focus-arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+
+              <div class="focus-content">
+                <p class="meta">
+                  CUSTOMER STORY • <span>10 NOVEMBER 2025</span>
+                </p>
+                <h5>
+                  Bakery plant in Italy enhances efficiency and sustainability
+                </h5>
+                <p class="desc">
+                  Custom belt innovation turned Alimenta Produzioni’s conveyor
+                  challenges into seamless production.
+                </p>
+
+                <a href="#" class="more-link">→ All Customer Stories</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="focus-card">
+              <div class="focus-media">
+                <img
+                  src="images/focus/News_Fabric_belt_joining_methods.jpg"
+                  alt=""
+                />
+                <div class="focus-arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+
+              <div class="focus-content">
+                <p class="meta">PRODUCTS • <span>10 NOVEMBER 2025</span></p>
+                <h5>Redefining printing precision with Smart Printing Belt</h5>
+                <p class="desc">
+                  In digital printing, accuracy and high performance are
+                  critical for achieving exceptional results
+                </p>
+
+                <a href="#" class="more-link">→ All Product News</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="focus-card">
+              <div class="focus-media">
+                <img src="images/focus/News_Smart_printing_belt.jpg" alt="" />
+                <div class="focus-arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+
+              <div class="focus-content">
+                <p class="meta">ARTICLE • <span>10 NOVEMBER 2025</span></p>
+                <h5>Fabric belt joining methods: Overview</h5>
+                <p class="desc">
+                  A belt is only as strong as its joint, and choosing the proper
+                  joining method makes a difference.
+                </p>
+
+                <a href="#" class="more-link">→ All Articles</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile Swiper Slider -->
+        <div class="swiper focusSwiper">
+          <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+              <div class="focus-card">
+                <div class="focus-media">
+                  <img src="images/focus/News_Bakery_plant_in_Italy.jpg" alt="" />
+                  <div class="focus-arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                </div>
+
+                <div class="focus-content">
+                  <p class="meta">
+                    PRESS RELEASE • <span>10 NOVEMBER 2025</span>
+                  </p>
+                  <h5>About Habasit</h5>
+                  <p class="desc">
+                    The Habasit team is made up of and professionals with deep
+                    industry is experience and application knowledge.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide">
+              <div class="focus-card">
+                <div class="focus-media">
+                  <img src="images/focus/News_Fabric_belt_joining_methods.jpg" alt="" />
+                  <div class="focus-arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                </div>
+
+                <div class="focus-content">
+                  <p class="meta">STORY • <span>10 NOVEMBER 2025</span></p>
+                  <h5>Fabric Belt Joining Methods</h5>
+                  <p class="desc">
+                    Fabric belts have been a core part of Habasit's portfolio
+                    since our founding in 1946.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="swiper-slide">
+              <div class="focus-card">
+                <div class="focus-media">
+                  <img src="images/focus/News_Smart_printing_belt.jpg" alt="" />
+                  <div class="focus-arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                </div>
+
+                <div class="focus-content">
+                  <p class="meta">NEWS • <span>10 NOVEMBER 2025</span></p>
+                  <h5>
+                    Super Hyclean nominated for Food Processing Awards 2022
+                  </h5>
+                  <p class="desc">
+                    Habasit UK are delighted to have been shortlisted as a
+                    finalist within the 'Hygiene and Food Safety.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pagination -->
+          <div class="swiper-pagination focus-pagination"></div>
+
+          <!-- Navigation Arrows -->
+          <div class="focus-nav-arrows">
+            <div class="focus-arrow-prev">
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+            <div class="focus-arrow-next">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========== Footer Area =============  -->
+    <footer class="hab-footer">
+      <div class="container">
+        <div class="row footer-top">
+          <!-- LEFT INTRO -->
+          <div class="col-lg-4 col-md-12 footer-intro">
+            <h4 class="footer-heading">
+              <span>Belting solutions</span> that keep your industry in motion
+            </h4>
+
+            <p class="footer-text">
+              As a leading global company for conveyor and power transmission
+              systems, we provide tailor-made, innovative solutions and
+              services, which keep industries in motion.
+            </p>
+
+            <a href="#" class="footer-btn white-animate-btn">About Habasit</a>
+          </div>
+
+          <!-- COLUMN 1 - This is Habasit -->
+          <div class="col-lg-2 col-md-6 col-6 footer-col offset-lg-1">
+            <h4 class="footer-col-title">This is Habasit</h4>
+            <ul class="footer-links">
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Industries</a></li>
+              <li><a href="#">Solutions</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+
+          <!-- COLUMN 2 - Services -->
+          <div class="col-lg-2 col-md-6 col-6 footer-col">
+            <h4 class="footer-col-title">Services</h4>
+            <ul class="footer-links">
+              <li><a href="#">Customer Portal</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Downloads</a></li>
+            </ul>
+          </div>
+
+          <!-- COLUMN 3 - Contact -->
+          <div class="col-lg-3 col-md-12 footer-contact-col">
+            <h4 class="footer-col-title">Contact</h4>
+
+            <p class="footer-contact">
+              Kalle Bas Väg 1 Box 73 S-438 54 Hindås<br />
+              Sweden
+            </p>
+
+            <p class="footer-phone">
+              Phone: <a href="tel:+46301226000">+46 30 122 600</a>
+            </p>
+
+            <a href="#" class="footer-arrow-link">→ All contacts</a>
+          </div>
+        </div>
+
+        <!-- BOTTOM BAR -->
+        <div class="footer-bottom">
+          <div class="footer-bottom-left">
+            <a href="#" class="footer-privacy">
+              <i class="fa-solid fa-shield-halved"></i> Privacy Settings
+            </a>
+          </div>
+
+          <div class="footer-bottom-center">
+            <p class="footer-copyright">© Habasit 2019–2025</p>
+            <a href="#">Sitemap</a>
+            <a href="#">Legal Disclaimer</a>
+          </div>
+
+          <div class="footer-bottom-right">
+            <a href="#" class="footer-icon"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a href="#" class="footer-icon"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

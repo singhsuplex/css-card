@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 718 720" width="718" height="720">
+	<defs>
+		<image width="160" height="411" id="img1" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwIiBoZWlnaHQ9IjQxMSIgdmlld0JveD0iMCAwIDE2MCA0MTEiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxNjAiIGhlaWdodD0iNDExIiByeD0iODAiIGZpbGw9IiNEOUQ5RDkiLz4KPC9zdmc+Cg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Band 1=End" href="#img1" transform="matrix(1,0,0,1,31,145)"/>
+	<use id="Band 1=End copy" href="#img1" transform="matrix(1,0,0,1,195,95)"/>
+	<use id="Band 1=End copy 2" href="#img1" transform="matrix(1,0,0,1,359,235)"/>
+	<use id="Band 1=End copy 3" href="#img1" transform="matrix(1,0,0,1,523,174)"/>
+</svg>
